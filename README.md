@@ -13,7 +13,7 @@ View notebook in [Data Lab](https://www.datacamp.com/datalab/w/7c5cae29-54f6-4b3
 - [License](#license)
 
 ## Project Structure
-.
+.   
 ├── Dockerfile - Dockerfile to run the project   
 ├── london_weather.csv - Dataset  
 ├── Makefile - Makefile for cheatcodes  
