@@ -73,4 +73,4 @@ Contributions are welcome. Please create a pull request. We encourage you to try
 
 
 ## License
-License information.
+[License information.](https://github.com/Shuyib/london_weather_prediction/blob/main/LICENSE)
