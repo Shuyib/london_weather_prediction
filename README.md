@@ -64,7 +64,7 @@ max_min_temperature
 sunshine_global_radiation   
 pressure_precipitation   
 
-The model can be improved by using more advanced models like XGBoost, LightGBM, and CatBoost.   
+The model can be improved by using more advanced models like XGBoost, LightGBM, and CatBoost. Can this data be combined with a clinical dataset to reveal any correlations with health of the residents of London? Something to explore as well.   
 
 More details can be found in the jupyter notebook.     
 
