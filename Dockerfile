@@ -10,7 +10,7 @@ RUN apt-get update && \
         graphviz \
         unzip && \
     rm -rf /var/lib/apt/lists/* && \
-    && python3 -m venv /app/ml-env \
+    python3 -m venv /app/ml-env \
     && . /app/ml-env/bin/activate \
     && pip --no-cache-dir install --upgrade pip \
     && pip --no-cache-dir install -r /app/requirements.txt
