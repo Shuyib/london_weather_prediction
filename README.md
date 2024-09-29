@@ -68,6 +68,30 @@ The model can be improved by using more advanced models like XGBoost, LightGBM, 
 
 More details can be found in the jupyter notebook.     
 
+### Build the Docker Image
+
+```bash
+docker build --platform linux/amd64 -t <DOCKER_IMAGE_TAG> .
+```
+
+### Run Docker Container
+```bash
+docker run -it --platform linux/amd64 -p 9999:9999 <DOCKER_IMAGE_TAG>
+```
+
+### Lint the Dockerfile
+```bash
+docker run --rm -i hadolint/hadolint < Dockerfile
+```
+
+### Clean Docker System
+```bash
+docker system prune -a
+```
+
+Replace `<DOCKER_IMAGE_TAG>` with your desired Docker image tag.
+
+
 ## Contributing
 Contributions are welcome. Please create a pull request. We encourage you to try out different models and preprocessing techniques.
 
