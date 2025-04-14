@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Shuyib/london_weather_prediction/HEAD)
+
 # London Weather Project
 It is a regression problem to predict mean temperature in London using historical weather data. The data is really dirty and needs to be cleaned before training the model. The model is trained using a simple linear regression model, Decision Tree Regressor, and Random Forest Regressor. The model is evaluated using RMSE. We will be using Mlflow to track the model performance and hyperparameters.
 
