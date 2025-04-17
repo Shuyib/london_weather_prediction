@@ -32,7 +32,7 @@ We are using Python 3.12 for the project.
 1. Clone the repository   
 
 ```bash
-git clone london_weather_prediction
+git clone https://github.com/Shuyib/london_weather_prediction.git
 ```
 
 2. Make a virtual environment   
